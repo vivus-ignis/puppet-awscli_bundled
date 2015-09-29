@@ -19,10 +19,10 @@ Or, if we need more customization, declare a class with parameters as shown:
 
 ```puppet
 class { 'awscli_bundled':
-  awscli_install_dir    = '/usr/local/aws',
-  awscli_source_dir     = 'http://your.company.com/custom-awscli-bundle.zip',
-  awscli_binary_symlink = undef,
-  wget_temp_dir         = '/var/tmp/puppet_wget'
+  awscli_install_dir    => '/usr/local/aws',
+  awscli_source_dir     => 'http://your.company.com/custom-awscli-bundle.zip',
+  awscli_binary_symlink => undef,
+  wget_temp_dir         => '/var/tmp/puppet_wget'
 }
 ```
 
