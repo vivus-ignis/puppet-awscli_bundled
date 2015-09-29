@@ -1,0 +1,14 @@
+{
+  "name": "ignis-awscli_bundled",
+  "version": "0.1.0",
+  "author": "Iaroslav Tarasenko",
+  "summary": "Installs bundled aws cli software",
+  "license": "MIT",
+  "source": "https://github.com/vivus-ignis/puppet-awscli_bundled",
+  "project_page": null,
+  "issues_url": "https://github.com/vivus-ignis/puppet-awscli_bundled/issues",
+  "dependencies": [
+    {"name":"maestrodev-wget","version_requirement":">= 1.7.1"}
+  ]
+}
+
