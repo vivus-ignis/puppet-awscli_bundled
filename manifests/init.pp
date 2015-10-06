@@ -46,8 +46,9 @@ class awscli_bundled (
   } ->
 
   exec { 'install awscli':
-    cwd => "${wget_temp_dir}/awscli-bundle",
-    command => "./install -i ${awscli_install_dir} ${binary_symlink}"
+    cwd     => "${wget_temp_dir}/awscli-bundle",
+    command => "./install -i ${awscli_install_dir} ${binary_symlink}",
+    creates => "${awscli_install_dir}/bin/aws"
   }
 
 }

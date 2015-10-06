@@ -1,3 +1,1 @@
-node default {
-  class { 'awscli_bundled': }
-}
+class { 'awscli_bundled': }
